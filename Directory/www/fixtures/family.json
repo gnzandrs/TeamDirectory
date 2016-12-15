@@ -4,6 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "Eddard Stark",
+      "slug": "eddard-stark",
       "title": "Lord of Winterfell",
       "email": "ned@winterfell.7k",
       "image": "https://s18.postimg.org/d8rent57p/eddard.jpg"
@@ -14,6 +15,7 @@
     "pk": 2,
     "fields": {
       "name": "Catelyn Stark",
+      "slug": "catelyn-stark",
       "title": "Lady of Winterfell",
       "email": "cat@winterfell.7k",
       "image": "https://s18.postimg.org/tihkqpfvp/catelyn.jpg"
@@ -24,6 +26,7 @@
     "pk": 3,
     "fields": {
       "name": "Robb Stark",
+      "slug": "robb-stark",
       "title": "King in the North",
       "email": "robb@winterfell.7k",
       "image": "https://s16.postimg.org/4egikz72p/robb.jpg"
@@ -34,6 +37,7 @@
     "pk": 4,
     "fields": {
       "name": "Sansa Stark",
+      "slug": "sansa-stark",
       "title": "Princess",
       "email": "sansa@winterfell.7k",
       "image": "https://s16.postimg.org/xi4qh7v69/sansa.jpg"
@@ -44,6 +48,7 @@
     "pk": 5,
     "fields": {
       "name": "Arya Stark",
+      "slug": "arya-stark",
       "title": "Princess",
       "email": "arya@winterfell.7k",
       "image": "https://s16.postimg.org/73fwor1xt/arya.jpg"
@@ -54,6 +59,7 @@
     "pk": 6,
     "fields": {
       "name": "Brandon Stark",
+      "slug": "brandon-stark",
       "title": "Prince",
       "email": "bran@winterfell.7k",
       "image": "https://s16.postimg.org/q9t3rxifl/brand.jpg"
@@ -64,6 +70,7 @@
     "pk": 7,
     "fields": {
       "name": "Rickon Stark",
+      "slug": "rickon-stark",
       "title": "Prince",
       "email": "rickon@winterfell.7k",
       "image": "https://s16.postimg.org/j953z5gnl/rickon.jpg"
@@ -74,6 +81,7 @@
     "pk": 8,
     "fields": {
       "name": "Jon Snow",
+      "slug": "jon-stark",
       "title": "The Bastard of Winterfell",
       "email": "iknownothing@winterfell.7k",
       "image": "https://s16.postimg.org/plk98zjpt/jon.jpg"

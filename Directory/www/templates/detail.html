@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <main>
+        <h1>Directory</h1>
+        <section>
+          <img src='{{ person.image }}'/>
+          <h2>{{ person.name }}</h2>
+          <p class='person-title'>{{ person.title }}</p>
+          <p class='person-email'>{{ person.email }}</p>
+          <p class='person-email'>{{ person.responsibilities }}</p>
+          <p class='person-email'>{{ person.bio }}</p>
+          <p class='person-email'>{{ person.twitter }}</p>
+          <p class='person-email'>{{ person.github }}</p>
+          <p class='person-email'>{{ person.birthday }}</p>
+        </section>
+    </main>
+{% endblock %}
