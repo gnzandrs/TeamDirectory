@@ -6,11 +6,8 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponse
 
 def index(request):
-    if request.user.is_authenticated():
-        people = Person.objects.all()
-        return render(request, 'index.html', {'people': people})
-    else:
-        return redirect('login/google-oauth2')
+    people = Person.objects.all()
+    return render(request, 'index.html', {'people': people})
 
 def detail(request, slug):
     person = Person.objects.get(slug = slug)
@@ -31,7 +28,6 @@ def edit(request, slug):
         return render(request, 'edit.html', {'form': form })
 
 def verify_email(backend, user, response, *args, **kwargs):
-    if backend.name == 'google-oauth2':
-        existing_person = Person.objects.filter(email = kwargs.get('details').get('email'))
-        if not existing_person:
-            return HttpResponse("You don't have access!")
+    existing_person = Person.objects.filter(email = kwargs.get('details').get('email'))
+    if not existing_person:
+        return HttpResponse("You don't have access!")
