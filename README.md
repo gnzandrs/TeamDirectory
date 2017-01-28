@@ -13,3 +13,9 @@ Django directory for make a small profile of team's members, Codeschool project.
 pip install -r requirements.txt
 
 python3 manage.py runserver
+
+# Admin credentials
+
+User: theking
+
+Password: ironthrone
